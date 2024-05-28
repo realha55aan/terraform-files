@@ -1,0 +1,19 @@
+variable "filename" {
+    default = "/home/ubuntu/terraform-file/pets.txt"
+}
+
+variable "content" {
+
+}
+
+variable "prefix" {
+
+}
+
+variable "separator" {
+
+}
+
+variable "length" {
+    
+}

@@ -1,0 +1,31 @@
+variable "filename" {
+    default = "/home/ubuntu/terraform-file/pets.txt"
+}
+
+variable "content" {
+    default = {
+        statement1 = "We love pets!"
+        statement2 = "Cat is my favorite"
+    }
+    type = map(string)
+    #default = {
+    #    "Cat" = "1"
+    #    "Dog" = "2"
+    #    "Lion" = "3"
+    #}
+    #type = map(number)
+}
+
+variable "prefix" {
+    default = ["Mrs", "Mr", "Sir"]
+    type = list(string)
+    #type = list(number)
+}
+
+variable "separator" {
+    default = "."
+}
+
+variable "length" {
+    default = 1
+}

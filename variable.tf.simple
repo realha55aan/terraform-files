@@ -1,0 +1,19 @@
+variable "filename" {
+    default = "/home/ubuntu/terraform-file/pets.txt"
+}
+
+variable "content" {
+    default =  "We love pets!. Cats are mine favuorate"
+}
+
+variable "prefix" {
+    default = "Mrs"
+}
+
+variable "separator" {
+    default = "1"
+}
+
+variable "length" {
+    default = "2"
+}
